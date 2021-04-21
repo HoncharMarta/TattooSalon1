@@ -1,0 +1,262 @@
+textarea {
+  resize: none !important;
+  -webkit-appearance: none !important;
+     -moz-appearance: none !important;
+          appearance: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.text-small {
+  line-height: 20px;
+  font-size: 11px;
+}
+
+.text-large {
+  line-height: 22px;
+  font-size: 15px;
+}
+
+.title-extra {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.medium-gray-text {
+  color: #929292;
+}
+
+.text-medium {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.alt-font {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 500;
+}
+
+.text-extra-large {
+  line-height: 27px;
+  font-size: 18px;
+}
+
+.title-small {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.m-nav__link {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 15px 20px;
+}
+
+.main-section {
+  height: calc(100vh - 82px);
+}
+
+.main-section__img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-section__img-wrap {
+  opacity: 1;
+  background: #252525;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+@media (max-width: 620px) {
+  .main-section__content .slogan {
+    width: 80%;
+  }
+}
+
+.main-section__text {
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+section {
+  padding: 130px 0;
+  width: 100%;
+}
+
+.section_bg {
+  background: url("./img/tattoo-icon-sectionBg.jpg") center top no-repeat;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 9%;
+}
+
+.section-heading__subtitle {
+  line-height: 20px;
+  font-size: 11px;
+  color: #929292;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.section-heading__title {
+  margin-top: 10px;
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.separator-line-full {
+  height: 1px;
+  margin: 0 auto;
+  width: 100%;
+  background: #e2e2e2;
+  margin-bottom: 7%;
+}
+
+.AboutUsItem:last-child .AboutUsItem__separator {
+  display: none;
+}
+
+.AboutUsItem__separator, .separator {
+  background: #6ad5a7;
+  height: 4px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 30px;
+}
+
+.PriceItem__inner {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.PriceItem__price {
+  background: #7ebaa1;
+}
+
+.PriceItem__price-item {
+  line-height: 45px;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.PriceItem__title {
+  padding: 10px 0;
+  background: #62a486;
+}
+
+.PriceItem__title-item {
+  font-weight: 600;
+}
+
+.PriceItem__features {
+  padding: 25px;
+  min-height: 277px;
+}
+
+.PriceItem__features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.PriceItem__features ul li {
+  padding: 7px 0;
+  color: #626262;
+  line-height: 23px;
+  font-size: 13px;
+}
+
+.PriceItem__features ul li:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.PriceItem__action {
+  padding: 0 35px 35px 35px;
+}
+
+.ReviewItem__name {
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
+  color: #828282;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.ReviewItem__desc {
+  font-size: 13px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  background: #62a486;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 6%;
+  color: #fff;
+  text-align: center;
+  opacity: .5;
+  -webkit-transition: opacity .15s ease;
+  transition: opacity .15s ease;
+}
+
+.BlogItem__title {
+  line-height: 22px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.BlogItem__title a {
+  color: #626262;
+}
+
+.BlogItem__desc {
+  color: #626262;
+}
+
+.BlogItem__datepost {
+  color: #ababab;
+  line-height: 20px;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+footer {
+  background: #dddddda9;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 30px;
+}
+/*# sourceMappingURL=App.css.map */
